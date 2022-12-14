@@ -9,3 +9,8 @@
 @import url(./vars.css);
 
 @import url(./common.css);
+
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@300;500&display=swap');
+

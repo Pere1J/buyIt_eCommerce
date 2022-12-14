@@ -7,3 +7,10 @@
     --color5: #e2c044;
 }
 /* FONTS */
+
+:root{
+    
+    --fuente1: 'Lato', sans-serif;
+    --fuente2: 'Poppins', sans-serif;
+
+}
