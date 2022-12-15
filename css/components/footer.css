@@ -1,3 +1,16 @@
-footer{
+.foot{
     background-color: #16272f;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+   }
+.checkout {
+    background-color: #e2c044;
+    position: absolute;
+    right: 150px;
+    border-radius: 10px;
+    
+    
+    
+     
 }
