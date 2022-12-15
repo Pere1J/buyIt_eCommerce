@@ -1,0 +1,15 @@
+/* .navbar {
+    background-color: #;
+} */
+
+#searchbar {
+    width: 300px;
+    margin: 15px;
+    
+}
+.nav_buttons ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
