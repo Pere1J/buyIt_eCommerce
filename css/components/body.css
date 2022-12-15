@@ -19,7 +19,21 @@ main {
     align-items: center;
 
 }
+
 .imagen_producto {
     height: 150px;
     width: 150px;
+}
+
+.descripcion button {
+    background-color: var(--color5);
+    border: 0;
+    border-radius: 15px;
+    padding:5px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.descripcion_producto {
+    font-size: 0.8em;
 }
