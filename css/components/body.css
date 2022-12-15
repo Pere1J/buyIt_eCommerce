@@ -20,6 +20,10 @@ main {
 
 }
 
+.descripcion h3 {
+    font-weight: bold;
+}
+
 .imagen_producto {
     height: 9em;
     width: 9em;
@@ -38,4 +42,9 @@ main {
 
 .descripcion_producto {
     font-size: 0.8em;
+    padding: 5px 0px;
+}
+
+.descripcion_producto li {
+    padding: 2px;
 }
