@@ -1,4 +1,21 @@
+body {
+    /* background-color: white ; */
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .imagen_producto {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
