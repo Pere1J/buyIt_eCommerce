@@ -21,8 +21,10 @@ main {
 }
 
 .imagen_producto {
-    height: 150px;
-    width: 150px;
+    height: 9em;
+    width: 9em;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
 .descripcion button {
