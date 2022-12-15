@@ -1,5 +1,9 @@
 body {
     /* background-color: white ; */
+    position: fixed;
+    top: 10vh;
+    bottom: 5vh;
+    overflow: scroll;
 }
 
 .catalogo {
