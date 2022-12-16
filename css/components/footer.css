@@ -1,13 +1,18 @@
 .foot{
     background-color: #16272f;
-    height: 100px;
+    height: 50px;
     display: flex;
-    position: relative;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
 
    }
 .checkout {
     background-color: #e2c044;
-    position: absolute;
+    /*position: absolute;*/
     right: 100px;
     border-radius: 10px;
     bottom: 40px;
