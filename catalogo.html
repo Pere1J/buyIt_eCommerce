@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo</title>
     <link rel="stylesheet" href="./css/global/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/78891e2d10.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+  <script src="./assets/js/navbar.js"></script>
   </head>
-  <!-- <header class="navbar">
-    <h1>TuMovil</h1>
-    <img src="./img/Blue Modern Electricity Technology Initial Logo.png" alt="logo">
-    <nav>
-      <input type="text" placeholder="search" id="">
-      <ul>
-        <li><a href="#"><i class="fa-solid fa-house-user"></i></a></li>
-        <li><a href="#">Novedades</a></li>
-        <li><a href="#">Outlet</a></li>
-        <li><a href="#">Apple</a></li>
-        <li><a href="#">Android</a></li>
-        <li><a href="#">Carrito</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Quiénes somos</a></li>
-      </ul>
-      <button class="carrito" type="button">Carrito</button>
-    </nav>
-  </header> -->
   <body>
+    <header class="nav_header">
+      <!-- dar formato a logo -->
+      <div class="logo">
+        <img src="./" alt="logo" />
+      </div>
+      <nav class="navigation"> 
+        <a href="">Home</a>
+        <a href="">Ofertas</a>
+        <a href="">Novedades</a>
+        <a href="">Contactanos</a>
+        <a href="">About US</a>
+      </nav>
+      <div class="toggleBox">
+        <ion-icon
+          onclick="showMenu()"
+          name="menu-outline"
+          class="menu"
+          id="toggle_menu"
+        ></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </div>
+    </header>
     <main class="catalogo">
       <ul class="cardlist">
         <li>
