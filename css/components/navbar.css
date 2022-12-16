@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100vw;
 }
 nav.navigation{
   display: none;
@@ -15,10 +17,11 @@ nav.navigation.active{
   justify-self: center;
   align-items: center;
   flex-direction: column;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  right: 0;
+  top: 110px;
+  width: 145px;
+  height: 311px;
+  border: solid 1px var(--color1);
   background-color: var(--color5);
 }
 nav.navigation.active a{
@@ -29,7 +32,7 @@ nav.navigation.active a{
 
 .menu{
   color: white;
-  
+  font-size: 30px;
 }
 
 nav.navigation.active{
