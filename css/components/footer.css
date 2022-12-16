@@ -1,0 +1,20 @@
+.foot{
+    background-color: #16272f;
+    height: 100px;
+    display: flex;
+    position: relative;
+
+   }
+.checkout {
+    background-color: #e2c044;
+    position: absolute;
+    right: 100px;
+    border-radius: 10px;
+    bottom: 40px;
+    height: 30px;
+    width: 120px;
+    
+    
+    
+     
+}
