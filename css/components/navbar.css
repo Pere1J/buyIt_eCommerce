@@ -39,3 +39,14 @@ nav.navigation.active{
 .close{
   display: none;
 }
+.logo img {
+  height: 70px;
+  mix-blend-mode: lighten ;
+}
+
+.logo {
+ 
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+}
