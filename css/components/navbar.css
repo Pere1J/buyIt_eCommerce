@@ -31,7 +31,7 @@ nav.navigation.active a{
 }
 
 .menu{
-  color: white;
+  color: var(--color5);
   font-size: 30px;
 }
 
@@ -53,3 +53,13 @@ nav.navigation.active{
   overflow: hidden;
   display: flex;
 }
+
+.toggleBox{
+  display: flex;
+  color: var(--color5);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
