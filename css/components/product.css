@@ -1,9 +1,15 @@
-main {
-    padding-top: 110px;
-    padding-bottom: 50px;
+
+.bigImage{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.bigImage img{
+    height: 300px;
 }
 
-.big_image {
-
-    height: 300px;
+.gallery{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
 }
