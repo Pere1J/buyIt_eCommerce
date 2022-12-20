@@ -4,3 +4,24 @@ width: 100vw;
 padding: 30px;
 justify-content: space-between;
 }
+
+.cellphone_item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.checkout_item_image {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.checkout_item_image img {
+    height: 100%;
+    
+}
