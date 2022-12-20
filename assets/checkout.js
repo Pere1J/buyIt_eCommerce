@@ -4,9 +4,27 @@ num = document.querySelector(".quantity_number");
 
 let a = 0;
 
-plus.addEventListener("click", ()=>{
-    a++;
-    (a < 10) ? "0" + a : a;
-    num.innerText = a;
+function addItem() {
+    if (a < 10) {
+        a++;
     console.log(a);
-});
+    } else {
+        a = 10;
+        console.log(a);
+    }
+    
+    
+    }
+
+function subsItem() {
+    if (a > 0) {
+        a--
+    console.log(a);
+    } else {
+        a = 0;
+        console.log(a);
+    }
+
+    
+    
+}
