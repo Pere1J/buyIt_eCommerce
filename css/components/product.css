@@ -1,3 +1,6 @@
+.description_product{
+    padding: 10px;
+}
 
 .bigImage{
     display: flex;
@@ -12,4 +15,8 @@
     display: flex;
     height: 100px;
     justify-content: space-around;
+}
+
+.caracteristicas {
+
 }
