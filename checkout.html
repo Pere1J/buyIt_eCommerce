@@ -18,8 +18,8 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script src="./assets/js/navbar.js"></script>
-    <script src="./assets/checkout.js"></script>
+    <script defer src="./assets/js/navbar.js"></script>
+    <script defer src="./assets/checkout.js"></script>
   </head>
   <body>
     <header class="nav_header">
@@ -54,7 +54,7 @@
           <div class="minus_button">
             <i class="fa-solid fa-circle-minus" onclick="subsItem()"></i>
           </div>
-          <span class="quantity_number">01</span>
+          <p id="quantity_number">01</p>
           <div class="plus_button">
             <i class="fa-solid fa-circle-plus" onclick="addItem()"></i>
           </div>
