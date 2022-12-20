@@ -29,7 +29,7 @@ align-items: center;
 
 .checkout_quantity{
 display: flex;
-align-content: center;
+align-items: center;
 height: 50px;
 width: 150px;
 justify-content:space-between;
@@ -41,4 +41,9 @@ padding: 10px 35px;
 .checkout_quantity input{
 width: 30px;
 
+}
+.quantity_number {
+    padding: 5px;
+    border-left: solid #888 2px;
+    border-right: solid #888 2px;
 }
