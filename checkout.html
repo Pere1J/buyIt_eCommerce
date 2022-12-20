@@ -19,6 +19,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/checkout.js"></script>
   </head>
   <body>
     <header class="nav_header">
@@ -41,27 +42,24 @@
       </div>
     </header>
     <main class="checkout">
-
-        <div class="checkout_item">
-            <div class="cellphone_item">
-                <div class="checkout_item_image">
-                    <img src=".\img\iphone 14 pro.png" alt="iPhone 14 Pro"/>
-                </div>
-                <p>iPhone 14 pro</p>
-                <p>1319 €</p>
-            </div>
-            <div class="checkout_quantity">
-                <div class="minus_button">
-                    <img src="#" alt="minus"> 
-                </div>
-                <input type="text" name="quantity" id="quantity" value="0">
-                <div class="plus_button">
-                    <img src="#" alt="plus"/>
-                </div>
-            </div>
-
+      <div class="checkout_item">
+        <div class="cellphone_item">
+          <div class="checkout_item_image">
+            <img src=".\img\iphone 14 pro.png" alt="iPhone 14 Pro" />
+          </div>
+          <p>iPhone 14 pro</p>
+          <p>1319 €</p>
         </div>
-
+        <div class="checkout_quantity">
+          <div class="minus_button">
+            <i class="fa-solid fa-circle-minus"></i>
+          </div>
+          <span class="quantity_number">01</span>
+          <div class="plus_button">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+         </div>
+      </div>
     </main>
 
     <footer class="foot">
@@ -72,12 +70,23 @@
       />
 
       <button class="checkout" type="button">Check Out</button>
-<ul class="socialmedia">
-<li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-<li><a href="https://es-es.facebook.com/"target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
-<li><a href="https://twitter.com/?lang=es"target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
-</ul>
-
+      <ul class="socialmedia">
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://es-es.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/?lang=es" target="_blank"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
