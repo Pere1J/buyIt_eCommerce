@@ -1,0 +1,6 @@
+.checkout_item{
+display: flex;
+width: 100vw;
+padding: 30px;
+justify-content: space-between;
+}
