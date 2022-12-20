@@ -3,6 +3,7 @@ display: flex;
 width: 100vw;
 padding: 30px;
 justify-content: space-between;
+align-items: center;
 }
 
 .cellphone_item {
@@ -24,4 +25,18 @@ justify-content: space-between;
 .checkout_item_image img {
     height: 100%;
     
+}
+
+.checkout_quantity{
+display: flex;
+align-content: center;
+height: 50px;
+width: 150px;
+justify-content:space-around;  
+
+
+}
+.checkout_quantity input{
+width: 30px;
+
 }
