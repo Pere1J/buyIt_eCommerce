@@ -9,26 +9,47 @@
 }
 nav.navigation{
   display: none;
+  
 }
 
 nav.navigation.active{
+  animation: aparece 0.5s;
   display: flex;
   position:absolute;
   justify-self: center;
   align-items: center;
   flex-direction: column;
   right: 0;
-  top: 110px;
+  top: 108px;
   width: 145px;
   height: 311px;
   border: solid 1px var(--color1);
-  background-color: var(--color5);
+  background-color: var(--color1);
+  font-family: var(--fuente2);
+  border-radius: 0 0 11px 11px;
+
 }
+
+
 nav.navigation.active a{
+  animation: aparece 0.9s;
   padding: 20px;
-  color: black;
+  color: var(--color5);
   font-size: 20px;
 }
+
+@keyframes aparece {
+  0% {
+    opacity: 0.9;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 311px; 
+  }
+}
+
 
 .menu{
   color: var(--color5);
