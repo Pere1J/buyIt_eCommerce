@@ -59,10 +59,11 @@ main {
 }
 .image_container2 {
     display: flex;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     
 }
 .imagen_landing {
-    width: 200em;
+    width: 395px;
     
-}
+}    
