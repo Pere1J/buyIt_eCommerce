@@ -70,3 +70,8 @@ width: 30px;
     flex-direction: row-reverse;
     width: 70px;
 }
+p{
+    color: black;
+    font-family: var(--fuente2);
+    font-weight: bold;
+}

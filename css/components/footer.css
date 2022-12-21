@@ -29,6 +29,9 @@
     height: 30px;
     width: 120px;
     border: 0;
+    font-family: var(--fuente2);
+    font-weight: bold;
+    text-transform:uppercase;
      
 }
 
