@@ -32,10 +32,10 @@ nav.navigation.active{
 
 
 nav.navigation.active a{
-  animation: aparece 0.9s;
+  animation: aparece1 0.7s;
   padding: 20px;
   color: var(--color5);
-  font-size: 20px;
+  font-size: 17px;
 }
 
 @keyframes aparece {
@@ -50,6 +50,19 @@ nav.navigation.active a{
   }
 }
 
+@keyframes aparece1 {
+  0% {
+    /* visibility: hidden; */
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    /* visibility: visible; */
+    opacity: 1;
+  }
+}
 
 .menu{
   color: var(--color5);
