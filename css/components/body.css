@@ -64,6 +64,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--color5);
     
 }
 .imagen_landing {
@@ -90,6 +91,7 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: var(--color5);
         
     }
     .imagen_landing {

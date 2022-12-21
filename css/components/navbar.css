@@ -98,7 +98,7 @@ nav.navigation.active{
 }
 
 
-@media (min-width: 850px){
+@media (min-width: 1000px){
   nav.navigation{
     display: flex;
     gap: 20px
