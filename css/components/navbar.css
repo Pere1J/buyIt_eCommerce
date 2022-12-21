@@ -98,21 +98,3 @@ nav.navigation.active{
 }
 
 
-@media (min-width: 1000px){
-  nav.navigation{
-    display: flex;
-    gap: 20px
-  }
-  nav.navigation a{
-    color: var(--color5);
-    font-family: var(--fuente2);
-    font-weight: bold;
-  }
-  nav.navigation a:hover{
-    transition: all 0.3s;
-    color: var(--color3);
-  }
-  .fa-bars{
-    display: none;
-  }
-}
