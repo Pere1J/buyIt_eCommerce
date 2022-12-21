@@ -1,8 +1,8 @@
 window.onload = function () {
     // Variables
     const IMAGENES = [
-        'img/flip4/back.jpg',
-        'img/flip4/front.jpg',
+        'img/flip4/back.png',
+        'img/flip4/front.png',
         'img/galaxy_z_flip_4.png',
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
@@ -48,35 +48,38 @@ window.onload = function () {
     }
 
     /**
-     * Activa el autoplay de la imagen
+     * Activa el autoplay de la imagen 
      */
+    // No usamos la funcion de play and stop!!
     function playIntervalo() {
         intervalo = setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);
         // Desactivamos los botones de control
         $botonAvanzar.setAttribute('disabled', true);
         $botonRetroceder.setAttribute('disabled', true);
-        $botonPlay.setAttribute('disabled', true);
-        $botonStop.removeAttribute('disabled');
+        // $botonPlay.setAttribute('disabled', true);
+        // $botonStop.removeAttribute('disabled');
 
     }
 
     /**
      * Para el autoplay de la imagen
      */
+    //// No usamos la funcion de play and stop!!
     function stopIntervalo() {
         clearInterval(intervalo);
         // Activamos los botones de control
         $botonAvanzar.removeAttribute('disabled');
         $botonRetroceder.removeAttribute('disabled');
-        $botonPlay.removeAttribute('disabled');
-        $botonStop.setAttribute('disabled', true);
+        // $botonPlay.removeAttribute('disabled');
+        // $botonStop.setAttribute('disabled', true);
     }
 
     // Eventos
+    // El evento de stop and play no lo queremos usar!
     $botonAvanzar.addEventListener('click', pasarFoto);
     $botonRetroceder.addEventListener('click', retrocederFoto);
-    $botonPlay.addEventListener('click', playIntervalo);
-    $botonStop.addEventListener('click', stopIntervalo);
+    // $botonPlay.addEventListener('click', playIntervalo);
+    // $botonStop.addEventListener('click', stopIntervalo);
     // Iniciar
     renderizarImagen();
 } 
