@@ -1,8 +1,3 @@
-main {
-    padding-top: 110px;
-    padding-bottom: 50px;
-    background-color: var(--color4);
-}
 
 .bigImage{
     overflow: hidden;
@@ -112,7 +107,7 @@ button.buy {
 }
 #retroceder, #avanzar {
     font-size: 25px;
-    /* background-color: var(--color4); */
+    background-color: var(--color4);
     color: var(--color1);
     border: 0;
 }

@@ -5,26 +5,37 @@ main {
 
 .card {
     display:flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .cardlist {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
     padding: 15px;
 }
+
 .descripcion {
+    font-family: var(--fuente2);
+    color: black;
+    font-weight: lighter;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+.precio{
+    color: var(--color1);
+    font-weight: 500;
+}
 .descripcion h3 {
+    font-family: var(--fuente2);
     font-weight: bold;
+    color: black;
 }
+
 
 .image_container {
     display: flex;
@@ -61,8 +72,62 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--color5);
     
 }
 .imagen_landing {
-    width: 390px;   
+    width: 100%;
+    
 }    
+@media (max-width: 1000px){
+    }
+    .image_container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .imagen_landing {
+        width: 100%;
+        
+    }    
+
+
+    @media (min-width: 1000px){
+    .image_container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color5);
+        
+    }
+    .imagen_landing {
+        width: 1000px;
+        
+        
+    }    
+    .catalogo{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    nav.navigation{
+        transition: all 3s;
+        display: flex;
+        gap: 20px
+      }
+      nav.navigation a{
+        color: var(--color5);
+        font-family: var(--fuente2);
+        font-weight: bold;
+      }
+      nav.navigation a:hover{
+        color: var(--color3);
+      }
+      #burger{
+        display: none;
+      }
+      #back{
+        display: none;
+      }
+    }
+  
