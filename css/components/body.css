@@ -129,5 +129,15 @@ main {
       #back{
         display: none;
       }
-    }
+      .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .carousel{
+        padding-top: 50px;
+      }
+      }
+
+    
   
