@@ -2,8 +2,8 @@ window.onload = function () {
     // Variables
     const IMAGENES = [
         'img/flip4/back.jpg',
-        'img/flip4/dimensions.jpg',
-        'img/flip4/front.jpg'
+        'img/flip4/front.jpg',
+        'img/galaxy_z_flip_4.png',
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;

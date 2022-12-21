@@ -94,12 +94,10 @@ button.buy {
 }
 /* carousel */
 .carousel {
-    max-width: 800px;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: 0 ;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     justify-items: center;
 }
 #imagen img{
@@ -107,8 +105,8 @@ button.buy {
     height: 200px;
 }
 #imagen {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
     background-size: contain;
     background-repeat: no-repeat;
 }
