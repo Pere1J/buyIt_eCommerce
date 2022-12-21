@@ -57,3 +57,12 @@ main {
 .descripcion_producto li {
     padding: 2px;
 }
+.image_container2 {
+    display: flex;
+    justify-content:center;
+    
+}
+.imagen_landing {
+    width: 200em;
+    
+}
