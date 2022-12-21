@@ -41,7 +41,7 @@
         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </div>
     </header>
-    <main class="checkout">
+    <main class="checkout_page">
       <div class="checkout_item">
         <div class="cellphone_item">
           <div class="checkout_item_image">
@@ -52,13 +52,35 @@
         </div>
         <div class="checkout_quantity">
           <div class="minus_button">
-            <i class="fa-solid fa-circle-minus" onclick="subsItem()"></i>
+            <i class="fa-solid fa-circle-minus" onclick="subsItemA()"></i>
           </div>
-          <p id="quantity_number">01</p>
+          <p id="quantity_number_A">1</p>
           <div class="plus_button">
-            <i class="fa-solid fa-circle-plus" onclick="addItem()"></i>
+            <i class="fa-solid fa-circle-plus" onclick="addItemA()"></i>
           </div>
-         </div>
+        </div>
+      </div>
+      <div class="checkout_item">
+        <div class="cellphone_item">
+          <div class="checkout_item_image">
+            <img src=".\img\galaxy z flip 4.png" alt="Galaxy Z Flip 4" />
+          </div>
+          <p>Galaxy Z Flip 4</p>
+          <p>1159 €</p>
+        </div>
+        <div class="checkout_quantity">
+          <div class="minus_button">
+            <i class="fa-solid fa-circle-minus" onclick="subsItemB()"></i>
+          </div>
+          <p id="quantity_number_B">1</p>
+          <div class="plus_button">
+            <i class="fa-solid fa-circle-plus" onclick="addItemB(b)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="total">
+        <p>Total a pagar:</p>
+        <p id="total_price">0</p><span>€</span>
       </div>
     </main>
 

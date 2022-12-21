@@ -1,37 +1,54 @@
-// const plus = document.querySelector(".plus_button"),
-// minus = document.querySelector(".minus_button"),
-// num = document.querySelector(".quantity_number");
+let a = 1;
+let priceA = 1319;
 
-let a = 0;
+let b = 1;
+let priceB = 1159;
 
-function addItem() {
+function addItemA() {
   if (a < 10) {
     a++;
-    //console.log(a);
-    
-  } else {
-    a = 10;
-    //console.log(a);
   }
-  renderNumber();
-}
 
-function subsItem() {
+  renderNumber();
+  addTotal();
+}
+function subsItemA() {
   if (a > 0) {
     a--;
-    //console.log(a);
-  } else {
-    a = 0;
-    //console.log(a);
   }
   renderNumber();
+  addTotal();
+}
+function addItemB() {
+  if (b < 10) {
+    b++;
+  }
+  renderNumber();
+  addTotal();
+}
+
+function subsItemB() {
+  if (b > 0) {
+    b--;
+  }
+  renderNumber();
+  addTotal();
+}
+
+let total = a * priceA + b * priceB;
+
+function addTotal() {
+  let total = a * priceA + b * priceB;
+  let totalPrice = document.querySelector("#total_price");
+  totalPrice.innerHTML = total.toString();
+  return total;
 }
 
 function renderNumber() {
-    let totalItems = document.querySelector("#quantity_number");
-    totalItems.innerHTML = a.toString();
-    //console.log(totalItems);
+  let totalItemA = document.querySelector("#quantity_number_A");
+  totalItemA.innerHTML = a.toString();
+  let totalItemB = document.querySelector("#quantity_number_B");
+  totalItemB.innerHTML = b.toString();
 }
-//document.getElementById(".quantity_number span").innerHTML = a;
 
 renderNumber();
