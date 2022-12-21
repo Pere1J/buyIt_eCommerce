@@ -5,16 +5,18 @@ main {
 
 .card {
     display:flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .cardlist {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
     padding: 15px;
 }
+
 .descripcion {
     display: flex;
     flex-direction: column;
@@ -23,6 +25,7 @@ main {
 }
 
 .descripcion h3 {
+    font-family: var(--fuente2);
     font-weight: bold;
 }
 
@@ -64,6 +67,38 @@ main {
     
 }
 .imagen_landing {
-    width: 390px;
+    width: 100%;
     
 }    
+@media (min-width: 850px){
+    }
+    .image_container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .imagen_landing {
+        width: 100%;
+        
+    }    
+
+
+  @media (min-width: 1000px){
+    .image_container2 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .imagen_landing {
+        width: 1000px;
+        
+        
+    }    
+    .catalogo{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+  }
