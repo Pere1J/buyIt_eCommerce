@@ -55,11 +55,17 @@ h1{
     list-style-type:disc;
     list-style-position: inside;
     font-family: var(--fuente2);
-    padding-top: 20px;
-    padding-bottom: 15px;
+    /* padding-top: 20px;
+    padding-bottom: 15px; */
+    padding: 20px 10px 15px 10px;
     font-weight: lighter;
     font-size: 15px;
     line-height: 25px;
+}
+
+.caracteristicas li {
+    padding: 10px 0px;
+    text-align: justify;
 }
 
 button.buy {

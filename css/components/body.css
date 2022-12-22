@@ -137,11 +137,24 @@ main {
       .carousel{
         padding-top: 50px;
       }
+      .caracteristicas {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 400px);
+        gap: 50px;
+        justify-content: center;
+               
 
-      /* .checkout_item {
-        gap: 150px;
-
-      } */
+      }
+      h1 {
+        padding: 20px 0;
+      }
+      h2 {
+        padding: 5px 0px;
+      }
+      .pvp {
+        padding: 10px 0;
+      }
       }
 
     
