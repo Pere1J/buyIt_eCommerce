@@ -16,7 +16,11 @@ width: 100vw;
 padding: 15px 30px;
 justify-content: center;
 align-items: center;
-gap: 100px;
+gap: 60px;
+}
+
+.checkout_item p {
+    font-size: small;
 }
 
 .cellphone_item {
