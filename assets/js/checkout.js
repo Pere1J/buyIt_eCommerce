@@ -4,6 +4,8 @@ let priceA = 1319;
 let b = 1;
 let priceB = 1159;
 
+addTotal();
+
 function addItemA() {
   if (a < 10) {
     a++;
