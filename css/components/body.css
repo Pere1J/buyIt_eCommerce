@@ -79,7 +79,7 @@ main {
     width: 100%;
     
 }    
-@media (max-width: 1000px){
+@media (max-width: 972px){
     }
     .image_container2 {
         display: flex;
@@ -93,7 +93,7 @@ main {
     }    
 
 
-    @media (min-width: 1000px){
+    @media (min-width: 972px){
     .image_container2 {
         display: flex;
         align-items: center;
