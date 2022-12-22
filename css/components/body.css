@@ -126,7 +126,7 @@ main {
       #burger{
         display: none;
       }
-      #back{
+      #back, #back2 {
         display: none;
       }
       .description{
@@ -137,6 +137,11 @@ main {
       .carousel{
         padding-top: 50px;
       }
+
+      /* .checkout_item {
+        gap: 150px;
+
+      } */
       }
 
     

@@ -1,5 +1,9 @@
 
 .checkout_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     padding-top: 130px;
     bottom: 50px;
@@ -10,11 +14,13 @@
 display: flex;
 width: 100vw;
 padding: 15px 30px;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+gap: 100px;
 }
 
 .cellphone_item {
+    width: 130px;
     display: flex;
     flex-direction: column;
     gap: 15px;

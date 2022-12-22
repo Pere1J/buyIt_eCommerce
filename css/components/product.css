@@ -87,6 +87,16 @@ button.buy {
     color: var(--color5);
     padding-top: 20px;
 }
+
+#back2{
+    background-color: var(--color1);
+    border-radius: 0px 0px 5px 0px;
+    position: sticky;
+    top: 90px;
+    font-size: 20px;
+    color: var(--color5);
+    padding-top: 20px;
+}
 /* carousel */
 .carousel {
     /* max-width: 400px; */
