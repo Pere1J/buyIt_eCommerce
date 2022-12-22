@@ -29,7 +29,7 @@ En este proyecto hemos utilizado las siguientes metodologías:
  - Trabajar en un solo proyecto usando Git y utilizando un repositorio remoto (GitHub).
  - Trabajar en ramas dentro del repositorio remoto.
  
- ## Link de la página
+ ## [Link de la página](https://pere1j.github.io/buyIt_eCommerce/)
  
 
 
